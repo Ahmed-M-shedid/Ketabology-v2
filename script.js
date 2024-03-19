@@ -17,7 +17,7 @@ function calculatePrice() {
         return;
     }
 
-    price = covers * 9 + Math.floor(pages * 0.5 * 0.60) + profit;
+    price = covers *10 + Math.floor(pages * 0.5 * 0.60) + profit;
 
     document.getElementById('result').innerText = "The Book Price is " + price;
 }
